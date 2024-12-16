@@ -3,12 +3,14 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  
 }
 #container {
   height: 150px;
   width: 200px;
   padding: 150px;
-  border: 2px solid black;
+  background: linear-gradient(190deg, #333, #333 50%,  #333 75%);
+  box-shadow: 2px 2px 12px 15px red;
   border-radius: 20px;
   display: flex;
   flex-direction: column;
@@ -19,6 +21,10 @@ body {
 h2
 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+    text-shadow: 5px 2px 5px black;
+    color: aqua;
 }
 #container #display {
   border: 2px solid red;
@@ -29,7 +35,7 @@ h2
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: red;
   background-color:hsla(0, 0%, 0%, 0.914);
-  box-shadow: 2px 2px 25px 10px black;
+  /* box-shadow: 2px 2px 25px 10px black; */
   
   
 }
